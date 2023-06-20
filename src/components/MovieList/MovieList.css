@@ -1,0 +1,9 @@
+.movieList {
+  margin-top: 2rem;
+}
+
+.moviesRow {
+  display: flex;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}

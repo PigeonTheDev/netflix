@@ -1,0 +1,52 @@
+.movieCardWrapper {
+  margin: 0.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.movieCardWrapper img {
+  width: 100%;
+  border-radius: 0.25rem;
+  animation-name: outhover;
+  animation-duration: 0.4s;
+}
+
+@keyframes outhover {
+  from {
+    width: 110%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes onhover {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 110%;
+  }
+}
+
+.movieCardWrapper img:hover {
+  width: 110%;
+  animation-name: onhover;
+  animation-duration: 0.4s;
+}
+
+.cardContent {
+  position: absolute;
+  background-color: #dbdbdb;
+  opacity: 0.5;
+  width: 110%;
+  height: 4rem;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  bottom: 0.25rem;
+  color: black;
+  text-align: center;
+}

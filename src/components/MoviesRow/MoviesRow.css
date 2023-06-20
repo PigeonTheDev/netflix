@@ -1,0 +1,20 @@
+.moviesRow {
+  display: flex;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.loadingWrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rowGenre {
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1.5rem;
+  padding: 0.25rem;
+  color: #f5f5f5;
+}
