@@ -4,7 +4,7 @@ import { primaryImage } from "./primaryImage";
 export type Movie = {
   _id: string;
   id: string;
-  primaryImage: primaryImage;
+  primaryImage: primaryImage | null;
   titleType: TitleType;
   titleText: {
     text: string;

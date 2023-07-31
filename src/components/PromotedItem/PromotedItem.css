@@ -1,0 +1,48 @@
+.Wrapper {
+  z-index: -5;
+}
+
+.promotedImage {
+  width: 100%;
+  opacity: 0.6;
+}
+
+.infoWrapper {
+  position: absolute;
+  top: 10rem;
+  left: 3rem;
+  z-index: 5;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.paragraph {
+  width: 60%;
+  font-size: 1.125rem;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.promotedButton {
+  margin: 0.5rem;
+  background-color: rgba(88, 88, 88, 0.5);
+  display: flex;
+  align-items: center;
+  color: #f5f5f5;
+  width: fit-content;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0.25rem;
+  font-size: 1.125rem;
+}
+
+svg {
+  fill: #f5f5f5;
+  margin-right: 0.5rem;
+}
+
+.promotedButton:hover {
+  background-color: #f5f5f5;
+  color: #585858;
+  fill: #585858;
+}
