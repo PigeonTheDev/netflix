@@ -1,11 +1,28 @@
+@keyframes slideMade {
+  from {
+    margin-top: 1rem;
+  }
+  to {
+    margin-top: -5rem;
+  }
+}
+
 .movieList {
   position: relative;
   margin-top: -5rem;
   z-index: 5;
+  animation-name: slideMade;
+  animation-duration: 3s;
 }
 
 .moviesRow {
   display: flex;
   margin-left: 1.5rem;
   margin-bottom: 1rem;
+}
+
+.loadingWrapper {
+  position: absolute;
+  left: 50%;
+  bottom: 2rem;
 }

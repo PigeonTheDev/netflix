@@ -3,6 +3,7 @@ import { Movie } from "../../modals/Movie";
 import { useHistory, useParams } from "react-router";
 import { Ratings } from "../../modals/Ratings";
 import api from "../../api/API";
+import { PromotedItem } from "../../components/PromotedItem/PromotedItem";
 
 const API = new api();
 
@@ -18,6 +19,7 @@ export const MovieInfo = () => {
   console.log(ratings);
   return (
     <>
+      {/*  <PromotedItem /> */}
       <div onClick={() => history.push("/")} style={{ color: "white" }}>
         {ratings.averageRating}
       </div>

@@ -4,13 +4,6 @@
   margin-bottom: 1rem;
 }
 
-.loadingWrapper {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .rowGenre {
   font-size: 1.25rem;
   font-family: Arial, Helvetica, sans-serif;
