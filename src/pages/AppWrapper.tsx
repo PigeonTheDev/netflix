@@ -9,11 +9,11 @@ export const AppWrapper = () => {
   return (
     <Router>
       <Switch>
-        <Route path={"/"} exact component={Home} />
-        <Route path={"/movie/:id"} exact component={MovieInfo} />
-        <Route path={"/movies"} exact component={MoviesPage} />
-        <Route path={"/tvshows"} exact component={TvShows} />
-        <Route path={"/miniShows"} exact component={MiniSeries} />
+        <Route path="/" exact component={Home} />
+        <Route path="/movie/:id" exact component={MovieInfo} />
+        <Route path="/movies" exact component={MoviesPage} />
+        <Route path="/tvshows" exact component={TvShows} />
+        <Route path="/miniShows" exact component={MiniSeries} />
       </Switch>
     </Router>
   );
