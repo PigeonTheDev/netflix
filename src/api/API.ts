@@ -82,7 +82,7 @@ class api {
     genreCombo: async (titleType?: string): Promise<GenreMovie[]> => {
       return this.getGenres().then(async (genres) => {
         const newGenres = genres.filter((genre: string) => {
-          return genre !== null;
+          return genre !== null && genre !== "Animation" && genre !== "Adult";
         });
 
         //1. yöntem
